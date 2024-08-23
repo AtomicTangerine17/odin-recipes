@@ -1,15 +1,27 @@
 .master {
     color: orange;
-    background-color: black;
     text-align: center;
 }
     
 body{
-    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
-.doublecheese {
+.title {
+    color: red;
+    text-align: center;
+}
+
+.mainlinks{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+.headings{
     color: red;
 }
-p{
-    color: orangered;
+.photos {
+    height: auto;
+    width: 350px;
+    margin: auto 750px;
 }
