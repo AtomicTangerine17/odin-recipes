@@ -1,9 +1,11 @@
 .master {
     color: orange;
     text-align: center;
+    border: solid black 10px;
+    padding: 20px;
 }
     
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: aquamarine;
@@ -13,16 +15,30 @@ body{
     text-align: center;
 }
 
-.mainlinks{
+.mainlinks {
     font-weight: bold;
     text-align: center;
     font-size: 18px;
+
+    
 }
-.headings{
+.headings {
     color: red;
+    padding: 20px;
 }
 .photos {
     height: auto;
     width: 350px;
     margin: auto 750px;
+    }
+ p,
+ ul,
+ ol{
+    border: solid white 10px;
+    border-style:dashed;
+    padding: 20px;
+ }
+img{
+    border-radius: 150px 0 150px 0;
+
 }
